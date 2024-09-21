@@ -1,0 +1,64 @@
+/* Login.css */
+
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+  }
+  
+  .login-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Ancho de la tarjeta */
+    text-align: center;
+  }
+  
+  .login-card h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Espaciado entre campos */
+    text-align: left; /* Alinear texto a la izquierda */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px; /* Espacio entre label y input */
+    color: #555; /* Color de la etiqueta */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: border-color 0.3s; /* Efecto de transición */
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff; /* Cambiar color del borde al enfocar */
+    outline: none; /* Quitar el contorno por defecto */
+  }
+  
+  .login-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: background-color 0.3s; /* Efecto de transición */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+  }
+  

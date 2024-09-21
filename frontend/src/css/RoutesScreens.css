@@ -1,0 +1,132 @@
+/* General body styling */
+
+  .img-logoTienda{
+    width: 100px;
+  }
+  .cart-logo{
+    height: 30px;
+  }
+  /* Navigation container */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Logo styling */
+  nav .logo img {
+    height: 40px; /* Adjust height as needed */
+    margin-right: 20px;
+  }
+  
+  /* Navigation list styling */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navigation items styling */
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  /* Navigation links styling */
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Navigation link hover effect */
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #575757;
+    color: #ffd700; /* Gold color for active state */
+  }
+  
+  /* Search box styling */
+  nav .search-box {
+    margin: 0 20px;
+  }
+  
+  nav .search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Cart icon styling */
+  nav .cart-icon {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .cart-icon i {
+    margin-left: 5px;
+  }
+
+  .logout-button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  .logout-button:hover{
+    background-color: #575757;
+    color: #ffd700; /* Gold color for active state */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 0px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  
+
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul li {
+      margin: 10px 0;
+    }
+    
+    nav .search-box {
+      margin: 10px 0;
+    }
+    
+    nav .cart-icon {
+      margin: 10px 0;
+    }
+  }
+  
